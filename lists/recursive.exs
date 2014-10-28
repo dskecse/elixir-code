@@ -3,5 +3,5 @@ defmodule Recursive do
   def len([_head | tail]), do: 1 + len(tail)
 end
 
-IO.puts Recursive.len([11, 13, 13, 14, 15])
+Recursive.len [11, 13, 13, 14, 15]
 # => 5
